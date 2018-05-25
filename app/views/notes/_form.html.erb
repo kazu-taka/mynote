@@ -1,4 +1,15 @@
 <%= form_with model: note, local: true do |form| %>
+  <% if note.errors.any? %>
+  <div class="alert alert-danger">
+    <p><b><%= note.errors.count %>件のエラーがあります</b></p>
+
+    <ul>
+    <% note.errors.full_messages.each do |message| %>
+      <li><%= message %></li>
+    <% end %>
+    </ul>
+  </div>
+  <% end %>
   <div class="form-group">
     <%= form.label :title %><br>
     <%= form.text_field :title, class: "form-control" %>
@@ -7,5 +18,7 @@
     <%= form.label :body %><br>
     <%= form.text_area :body, class: "form-control", rows: 15 %>
   </div>
+  <!-- TODO:後でcurrent_user.idに変更 -->
+  <%= form.hidden_field :user_id, value: 1 %>
   <%= form.submit class: "btn btn-default" %>
 <% end %>
