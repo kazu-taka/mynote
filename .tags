@@ -231,3 +231,5 @@ NotesController	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^
 index	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^  def index$/;"	method	line:2	class:NotesController
 create	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^  def create$/;"	method	line:5	class:NotesController
 note_params	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^  def note_params$/;"	method	line:16	class:NotesController
+ApplicationController	/Users/kazuma/camp/mynote/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	class	line:1
+configure_permitted_parameters	/Users/kazuma/camp/mynote/app/controllers/application_controller.rb	/^  def configure_permitted_parameters$/;"	method	line:7	class:ApplicationController

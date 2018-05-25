@@ -18,7 +18,6 @@
     <%= form.label :body %><br>
     <%= form.text_area :body, class: "form-control", rows: 15 %>
   </div>
-  <!-- TODO:後でcurrent_user.idに変更 -->
-  <%= form.hidden_field :user_id, value: 1 %>
+  <%= form.hidden_field :user_id, value: current_user.id %>
   <%= form.submit class: "btn btn-default" %>
 <% end %>
