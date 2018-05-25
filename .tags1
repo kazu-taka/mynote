@@ -4,3 +4,170 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+ja	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^ja:$/;"	function	line:2
+activerecord	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^  activerecord:$/;"	function	line:3
+models	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    models:$/;"	function	line:4
+note	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      note: "メモ"$/;"	function	line:5
+attributes	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    attributes:$/;"	function	line:6
+note	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      note:$/;"	function	line:7
+title	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        title: "タイトル"$/;"	function	line:8
+body	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        body: "本文"$/;"	function	line:9
+errors	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    errors:$/;"	function	line:10
+messages	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      messages:$/;"	function	line:11
+record_invalid	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        record_invalid: "バリデーションに失敗しました: %{errors}"$/;"	function	line:12
+restrict_dependent_destroy	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        restrict_dependent_destroy:$/;"	function	line:13
+has_one	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^          has_one: "%{record}が存在しているので削除できません"$/;"	function	line:14
+has_many	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^          has_many: "%{record}が存在しているので削除できません"$/;"	function	line:15
+date	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^  date:$/;"	function	line:16
+abbr_day_names	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    abbr_day_names:$/;"	function	line:17
+abbr_month_names	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    abbr_month_names:$/;"	function	line:25
+day_names	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    day_names:$/;"	function	line:39
+formats	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    formats:$/;"	function	line:47
+default	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      default: "%Y\/%m\/%d"$/;"	function	line:48
+long	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      long: "%Y年%m月%d日(%a)"$/;"	function	line:49
+short	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      short: "%m\/%d"$/;"	function	line:50
+month_names	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    month_names:$/;"	function	line:51
+order	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    order:$/;"	function	line:65
+datetime	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^  datetime:$/;"	function	line:69
+distance_in_words	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    distance_in_words:$/;"	function	line:70
+about_x_hours	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      about_x_hours:$/;"	function	line:71
+one	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        one: 約1時間$/;"	function	line:72
+other	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        other: 約%{count}時間$/;"	function	line:73
+about_x_months	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      about_x_months:$/;"	function	line:74
+one	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        one: 約1ヶ月$/;"	function	line:75
+other	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        other: 約%{count}ヶ月$/;"	function	line:76
+about_x_years	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      about_x_years:$/;"	function	line:77
+one	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        one: 約1年$/;"	function	line:78
+other	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        other: 約%{count}年$/;"	function	line:79
+almost_x_years	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      almost_x_years:$/;"	function	line:80
+one	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        one: 1年弱$/;"	function	line:81
+other	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        other: "%{count}年弱"$/;"	function	line:82
+half_a_minute	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      half_a_minute: 30秒前後$/;"	function	line:83
+less_than_x_minutes	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      less_than_x_minutes:$/;"	function	line:84
+one	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        one: 1分以内$/;"	function	line:85
+other	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        other: "%{count}分未満"$/;"	function	line:86
+less_than_x_seconds	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      less_than_x_seconds:$/;"	function	line:87
+one	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        one: 1秒以内$/;"	function	line:88
+other	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        other: "%{count}秒未満"$/;"	function	line:89
+over_x_years	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      over_x_years:$/;"	function	line:90
+one	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        one: 1年以上$/;"	function	line:91
+other	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        other: "%{count}年以上"$/;"	function	line:92
+x_days	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      x_days:$/;"	function	line:93
+one	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        one: 1日$/;"	function	line:94
+other	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        other: "%{count}日"$/;"	function	line:95
+x_minutes	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      x_minutes:$/;"	function	line:96
+one	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        one: 1分$/;"	function	line:97
+other	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        other: "%{count}分"$/;"	function	line:98
+x_months	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      x_months:$/;"	function	line:99
+one	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        one: 1ヶ月$/;"	function	line:100
+other	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        other: "%{count}ヶ月"$/;"	function	line:101
+x_years	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      x_years:$/;"	function	line:102
+one	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        one: 1年$/;"	function	line:103
+other	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        other: "%{count}年"$/;"	function	line:104
+x_seconds	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      x_seconds:$/;"	function	line:105
+one	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        one: 1秒$/;"	function	line:106
+other	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        other: "%{count}秒"$/;"	function	line:107
+prompts	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    prompts:$/;"	function	line:108
+day	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      day: 日$/;"	function	line:109
+hour	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      hour: 時$/;"	function	line:110
+minute	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      minute: 分$/;"	function	line:111
+month	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      month: 月$/;"	function	line:112
+second	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      second: 秒$/;"	function	line:113
+year	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      year: 年$/;"	function	line:114
+errors	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^  errors:$/;"	function	line:115
+format	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    format: "%{attribute}%{message}"$/;"	function	line:116
+messages	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    messages:$/;"	function	line:117
+accepted	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      accepted: を受諾してください$/;"	function	line:118
+blank	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      blank: を入力してください$/;"	function	line:119
+present	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      present: は入力しないでください$/;"	function	line:120
+confirmation	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      confirmation: と%{attribute}の入力が一致しません$/;"	function	line:121
+empty	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      empty: を入力してください$/;"	function	line:122
+equal_to	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      equal_to: は%{count}にしてください$/;"	function	line:123
+even	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      even: は偶数にしてください$/;"	function	line:124
+exclusion	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      exclusion: は予約されています$/;"	function	line:125
+greater_than	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      greater_than: は%{count}より大きい値にしてください$/;"	function	line:126
+greater_than_or_equal_to	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      greater_than_or_equal_to: は%{count}以上の値にしてください$/;"	function	line:127
+inclusion	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      inclusion: は一覧にありません$/;"	function	line:128
+invalid	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      invalid: は不正な値です$/;"	function	line:129
+less_than	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      less_than: は%{count}より小さい値にしてください$/;"	function	line:130
+less_than_or_equal_to	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      less_than_or_equal_to: は%{count}以下の値にしてください$/;"	function	line:131
+model_invalid	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      model_invalid: "バリデーションに失敗しました: %{errors}"$/;"	function	line:132
+not_a_number	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      not_a_number: は数値で入力してください$/;"	function	line:133
+not_an_integer	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      not_an_integer: は整数で入力してください$/;"	function	line:134
+odd	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      odd: は奇数にしてください$/;"	function	line:135
+required	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      required: を入力してください$/;"	function	line:136
+taken	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      taken: はすでに存在します$/;"	function	line:137
+too_long	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      too_long: は%{count}文字以内で入力してください$/;"	function	line:138
+too_short	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      too_short: は%{count}文字以上で入力してください$/;"	function	line:139
+wrong_length	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      wrong_length: は%{count}文字で入力してください$/;"	function	line:140
+other_than	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      other_than: は%{count}以外の値にしてください$/;"	function	line:141
+template	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    template:$/;"	function	line:142
+body	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      body: 次の項目を確認してください$/;"	function	line:143
+header	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      header:$/;"	function	line:144
+one	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        one: "%{model}にエラーが発生しました"$/;"	function	line:145
+other	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        other: "%{model}に%{count}個のエラーが発生しました"$/;"	function	line:146
+helpers	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^  helpers:$/;"	function	line:147
+select	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    select:$/;"	function	line:148
+prompt	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      prompt: 選択してください$/;"	function	line:149
+submit	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    submit:$/;"	function	line:150
+create	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      create: 登録する$/;"	function	line:151
+submit	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      submit: 保存する$/;"	function	line:152
+update	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      update: 更新する$/;"	function	line:153
+number	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^  number:$/;"	function	line:154
+currency	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    currency:$/;"	function	line:155
+format	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      format:$/;"	function	line:156
+delimiter	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        delimiter: ","$/;"	function	line:157
+format	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        format: "%n%u"$/;"	function	line:158
+precision	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        precision: 0$/;"	function	line:159
+separator	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        separator: "."$/;"	function	line:160
+significant	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        significant: false$/;"	function	line:161
+strip_insignificant_zeros	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        strip_insignificant_zeros: false$/;"	function	line:162
+unit	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        unit: 円$/;"	function	line:163
+format	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    format:$/;"	function	line:164
+delimiter	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      delimiter: ","$/;"	function	line:165
+precision	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      precision: 3$/;"	function	line:166
+separator	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      separator: "."$/;"	function	line:167
+significant	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      significant: false$/;"	function	line:168
+strip_insignificant_zeros	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      strip_insignificant_zeros: false$/;"	function	line:169
+human	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    human:$/;"	function	line:170
+decimal_units	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      decimal_units:$/;"	function	line:171
+format	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        format: "%n %u"$/;"	function	line:172
+units	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        units:$/;"	function	line:173
+billion	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^          billion: 十億$/;"	function	line:174
+million	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^          million: 百万$/;"	function	line:175
+quadrillion	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^          quadrillion: 千兆$/;"	function	line:176
+thousand	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^          thousand: 千$/;"	function	line:177
+trillion	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^          trillion: 兆$/;"	function	line:178
+unit	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^          unit: ''$/;"	function	line:179
+format	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      format:$/;"	function	line:180
+delimiter	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        delimiter: ''$/;"	function	line:181
+precision	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        precision: 3$/;"	function	line:182
+significant	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        significant: true$/;"	function	line:183
+strip_insignificant_zeros	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        strip_insignificant_zeros: true$/;"	function	line:184
+storage_units	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      storage_units:$/;"	function	line:185
+format	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        format: "%n%u"$/;"	function	line:186
+units	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        units:$/;"	function	line:187
+byte	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^          byte: バイト$/;"	function	line:188
+gb	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^          gb: GB$/;"	function	line:189
+kb	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^          kb: KB$/;"	function	line:190
+mb	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^          mb: MB$/;"	function	line:191
+tb	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^          tb: TB$/;"	function	line:192
+percentage	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    percentage:$/;"	function	line:193
+format	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      format:$/;"	function	line:194
+delimiter	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        delimiter: ''$/;"	function	line:195
+format	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        format: "%n%"$/;"	function	line:196
+precision	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    precision:$/;"	function	line:197
+format	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      format:$/;"	function	line:198
+delimiter	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^        delimiter: ''$/;"	function	line:199
+support	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^  support:$/;"	function	line:200
+array	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    array:$/;"	function	line:201
+last_word_connector	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      last_word_connector: 、$/;"	function	line:202
+two_words_connector	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      two_words_connector: 、$/;"	function	line:203
+words_connector	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      words_connector: 、$/;"	function	line:204
+time	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^  time:$/;"	function	line:205
+am	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    am: 午前$/;"	function	line:206
+formats	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    formats:$/;"	function	line:207
+default	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      default: "%Y年%m月%d日(%a) %H時%M分%S秒 %z"$/;"	function	line:208
+long	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      long: "%Y\/%m\/%d %H:%M"$/;"	function	line:209
+short	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      short: "%m\/%d %H:%M"$/;"	function	line:210
+pm	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    pm: 午後$/;"	function	line:211
