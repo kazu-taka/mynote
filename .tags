@@ -233,4 +233,5 @@ index	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^  def inde
 create	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^  def create$/;"	method	line:9	class:NotesController
 edit	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^  def edit$/;"	method	line:18	class:NotesController
 update	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^  def update$/;"	method	line:24	class:NotesController
-note_params	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^  def note_params$/;"	method	line:35	class:NotesController
+destroy	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^  def destroy$/;"	method	line:33	class:NotesController
+note_params	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^  def note_params$/;"	method	line:41	class:NotesController

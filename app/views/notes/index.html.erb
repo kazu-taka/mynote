@@ -3,7 +3,9 @@
     <%= link_to(edit_note_path(note)) do %> 
       <%= fa_icon 'pencil 2x' %>
     <% end %>
-    <%= fa_icon 'trash 2x' %>
+    <%= link_to(note_path(note), method: :delete) do %> 
+      <%= fa_icon 'trash 2x' %>
+    <% end %>
     <h4><%= note.title %></h4>
     <%= simple_format(truncate(note.body)) %>
     <hr>
