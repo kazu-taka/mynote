@@ -2,7 +2,8 @@ class NotesController < ApplicationController
   before_action :authenticate_user!
   def index
     @note = Note.new
-    @notes = Note.all
+    #昇順だったら :asc
+    @notes = Note.new_order
   end
   def create
     @note = Note.new(note_params)
