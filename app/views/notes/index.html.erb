@@ -1,7 +1,9 @@
 <div class="col-md-5">
-  左側
-  <!-- <%= fa_icon 'pencil 2x', class: "note-edit" %>
-  <%= fa_icon 'trash 2x', class: "note-delete" %> -->
+  <% @notes.each do |note| %>
+    <h4><%= note.title %></h4>
+    <%= simple_format(truncate(note.body)) %>
+    <hr>
+  <% end %>
 </div>
 <div class="col-md-7">
   <%= render partial: 'form', locals: { note: @note } %>

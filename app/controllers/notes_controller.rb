@@ -2,6 +2,7 @@ class NotesController < ApplicationController
   before_action :authenticate_user!
   def index
     @note = Note.new
+    @notes = Note.all
   end
   def create
     @note = Note.new(note_params)
