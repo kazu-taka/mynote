@@ -228,6 +228,8 @@ pm	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    pm: 午後$/;"	function
 ApplicationController	/Users/kazuma/camp/mynote/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	class	line:1
 configure_permitted_parameters	/Users/kazuma/camp/mynote/app/controllers/application_controller.rb	/^  def configure_permitted_parameters$/;"	method	line:7	class:ApplicationController
 Note	/Users/kazuma/camp/mynote/app/models/note.rb	/^class Note < ApplicationRecord$/;"	class	line:1
+.note-edit:hover, .note-delete:hover	/Users/kazuma/camp/mynote/app/assets/stylesheets/notes.scss	/^.note-edit:hover, .note-delete:hover {$/;"	function	line:4
+.right-contents	/Users/kazuma/camp/mynote/app/assets/stylesheets/notes.scss	/^.right-contents {$/;"	function	line:7
 NotesController	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^class NotesController < ApplicationController$/;"	class	line:1
 index	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^  def index$/;"	method	line:3	class:NotesController
 create	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^  def create$/;"	method	line:9	class:NotesController

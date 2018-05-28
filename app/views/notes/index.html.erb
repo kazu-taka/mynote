@@ -1,11 +1,13 @@
 <div class="col-md-5">
   <% @notes.each do |note| %>
-    <%= link_to(edit_note_path(note)) do %> 
-      <%= fa_icon 'pencil 2x' %>
-    <% end %>
-    <%= link_to(note_path(note), method: :delete) do %> 
-      <%= fa_icon 'trash 2x' %>
-    <% end %>
+    <div class="right-contents">
+      <%= link_to(edit_note_path(note)) do %> 
+        <%= fa_icon 'pencil 2x', class: "note-edit" %>
+      <% end %>
+      <%= link_to(note_path(note), method: :delete) do %> 
+        <%= fa_icon 'trash 2x', class: "note-delete" %>
+      <% end %>
+    </div>
     <h4><%= note.title %></h4>
     <%= simple_format(truncate(note.body)) %>
     <hr>
@@ -13,4 +15,5 @@
 </div>
 <div class="col-md-7">
   <%= render partial: 'form', locals: { note: @note } %>
+  <%= link_to "New Note", notes_path, class: "btn btn-primary pull-right" %>
 </div>
