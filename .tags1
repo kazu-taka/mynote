@@ -4,3 +4,4 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+Note	/Users/kazuma/camp/mynote/app/models/note.rb	/^class Note < ApplicationRecord$/;"	class	line:1

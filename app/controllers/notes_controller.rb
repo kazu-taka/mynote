@@ -3,7 +3,7 @@ class NotesController < ApplicationController
   def index
     @note = Note.new
     #昇順だったら :asc
-    @notes = Note.new_order
+    @notes = Note.new_order.page(params[:page])
   end
 
   def create

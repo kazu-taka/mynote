@@ -4,4 +4,6 @@ class Note < ApplicationRecord
   validates :body, presence: true
   
   scope :new_order, -> { order(created_at: :desc) }
+  
+  paginates_per 3
 end

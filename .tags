@@ -227,7 +227,6 @@ short	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      short: "%m\/%d %H:
 pm	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    pm: 午後$/;"	function	line:211
 ApplicationController	/Users/kazuma/camp/mynote/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	class	line:1
 configure_permitted_parameters	/Users/kazuma/camp/mynote/app/controllers/application_controller.rb	/^  def configure_permitted_parameters$/;"	method	line:7	class:ApplicationController
-Note	/Users/kazuma/camp/mynote/app/models/note.rb	/^class Note < ApplicationRecord$/;"	class	line:1
 .note-edit:hover, .note-delete:hover	/Users/kazuma/camp/mynote/app/assets/stylesheets/notes.scss	/^.note-edit:hover, .note-delete:hover {$/;"	function	line:4
 .right-contents	/Users/kazuma/camp/mynote/app/assets/stylesheets/notes.scss	/^.right-contents {$/;"	function	line:7
 NotesController	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^class NotesController < ApplicationController$/;"	class	line:1
@@ -237,3 +236,4 @@ edit	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^  def edit$
 update	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^  def update$/;"	method	line:24	class:NotesController
 destroy	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^  def destroy$/;"	method	line:33	class:NotesController
 note_params	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^  def note_params$/;"	method	line:41	class:NotesController
+Note	/Users/kazuma/camp/mynote/app/models/note.rb	/^class Note < ApplicationRecord$/;"	class	line:1

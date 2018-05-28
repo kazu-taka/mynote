@@ -12,6 +12,7 @@
     <%= simple_format(truncate(note.body)) %>
     <hr>
   <% end %>
+  <%= paginate @notes %>
 </div>
 <div class="col-md-7">
   <%= render partial: 'form', locals: { note: @note } %>
