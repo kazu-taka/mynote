@@ -1,4 +1,3 @@
-// .note-delete:hover, .note-edit:hover	/Users/kazuma/camp/mynote/app/assets/stylesheets/notes.scss	/^\/\/ .note-delete:hover, .note-edit:hover {$/;"	function	line:4
 ja	/Users/kazuma/camp/mynote/config/locales/devise.ja.yml	/^ja:$/;"	function	line:3
 devise	/Users/kazuma/camp/mynote/config/locales/devise.ja.yml	/^  devise:$/;"	function	line:4
 confirmations	/Users/kazuma/camp/mynote/config/locales/devise.ja.yml	/^    confirmations:$/;"	function	line:5
@@ -227,9 +226,9 @@ long	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      long: "%Y\/%m\/%d %
 short	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^      short: "%m\/%d %H:%M"$/;"	function	line:210
 pm	/Users/kazuma/camp/mynote/config/locales/ja.yml	/^    pm: 午後$/;"	function	line:211
 Note	/Users/kazuma/camp/mynote/app/models/note.rb	/^class Note < ApplicationRecord$/;"	class	line:1
-NotesController	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^class NotesController < ApplicationController$/;"	class	line:1
-index	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^  def index$/;"	method	line:2	class:NotesController
-create	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^  def create$/;"	method	line:5	class:NotesController
-note_params	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^  def note_params$/;"	method	line:16	class:NotesController
 ApplicationController	/Users/kazuma/camp/mynote/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	class	line:1
 configure_permitted_parameters	/Users/kazuma/camp/mynote/app/controllers/application_controller.rb	/^  def configure_permitted_parameters$/;"	method	line:7	class:ApplicationController
+NotesController	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^class NotesController < ApplicationController$/;"	class	line:1
+index	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^  def index$/;"	method	line:3	class:NotesController
+create	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^  def create$/;"	method	line:6	class:NotesController
+note_params	/Users/kazuma/camp/mynote/app/controllers/notes_controller.rb	/^  def note_params$/;"	method	line:17	class:NotesController
