@@ -6,7 +6,7 @@ class NotesController < ApplicationController
   def create
     @note = Note.new(note_params)
     if @note.save
-      redirect_to notes_path
+      redirect_to notes_path, notice: "メモを登録しました"
     else
       render :index
     end
